@@ -1,9 +1,9 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 75px;
     background-color: #1F2937;
-    justify-content: space-between;
     position: fixed;
     width: 100%;
 }
@@ -16,7 +16,8 @@ header {
 .header-links {
     display: flex;
     padding: 75px;
-    gap: 20px;
+    gap: 40px;
+    font-size: 25px;
 }
 
 a {
@@ -26,11 +27,22 @@ a {
 
 body {
     margin: 0;
+    font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
 }
 
 .herotext {
     color: antiquewhite;
     padding-left: 75px;
+    font-size: 30px;
+}
+
+.HEROTEXTMAIN {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+p {
+    margin: 25px 0px;
 }
 
 #who {
@@ -39,6 +51,7 @@ body {
     justify-content: space-between;
     padding-top: 75px;
     padding-bottom: 75px;
+    align-items: center;
 }
 
 .heroimage {
@@ -46,5 +59,29 @@ body {
 }
 
 .heropic {
-    width: 750px;
+    height: 62vh;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.5em;
+    padding: 1vh 18vh;
+    background-color: rgb(47, 144, 255);
+    color: antiquewhite;
+    margin:0 auto;
+    display:block;
+    border-radius: 25px;
+    border: none;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    background-color: green;
+}
+
+button:visited {
+    background-color: white;
 }
