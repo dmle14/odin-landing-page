@@ -97,11 +97,12 @@ button:active {
     font-size: 100px;
     font-weight: 800;
     color: #1F2937;
+    margin: 50px 0px;
 }
 
 .boxes {
     display: flex;
-    gap: 60px;
+    gap: 100px;
     flex-wrap: wrap;
 }
 
@@ -109,6 +110,7 @@ button:active {
     font-size: 35px;
     color: #1F2937;
     font-weight: 800;
+        margin: 50px 0px;
 }
 
 .whatimage {
@@ -145,8 +147,61 @@ button:active {
 }
 
 .bonus {
-    font-size: 12px;
+    font-size: 10px;
     color: #1f2937;
     text-align: end;
     padding-right: 50vh;
+}
+
+.lastbutton {
+    font-family: inherit;
+    font-size: 1.5em;
+    padding: 1vh 18vh;
+    background-color: rgb(47, 144, 255);
+    color: white;
+    margin:0;
+    display:block;
+    border-radius: 25px;
+    border: solid 5px white;
+}
+
+#how {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    align-items: center;
+}
+
+.howcontainer {
+    background-color: rgb(47, 144, 255);
+    display: flex;
+    gap: 250px;
+    padding: 75px;
+    border-radius: 25px;
+}
+
+.textleft1 {
+    font-weight: 800;
+    color: white;
+    font-size: 45px;
+}
+
+.textleft2 {
+    color: white;
+    font-size: 35px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    align-items: center;
+    color: white;
+    font-size: 40px;
 }
