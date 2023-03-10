@@ -55,6 +55,7 @@ p {
     align-items: center;
     padding: 7rem 0 0;
     gap: 2em;
+    height: 100vh;
 }
 
 .heropic {
@@ -88,6 +89,7 @@ button:active {
     justify-content: center;
     padding: 6em 0;
     background-color: white;
+    height: 100vh;
 }
 
 .whattext {
