@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 1rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.header-logo {
+    width: 3rem;
+}
+
+.header-links a {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-links a:hover {
+    color: #444;
+}
+
+#who {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0 0;
+    background-color: #f1f1f1;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.HEROTEXTMAIN {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.heropic {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.5rem;
+    padding: 0.5em 4em;
+    background-color: rgb(47, 144, 255);
+    color: white;
+    margin: 0 auto;
+    display:block;
+    border-radius: 1.5em;
+    border: none;
+}
+
+#what {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0;
+    background-color: white;
+}
+
+.whattext {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    transform: translateY(-25px);
+    transition: transform 0.4s cubic-bezier(0.29, 3.31, 0.41, -0.45);
+}
+
+.whatimage {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.whatimagetext {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 5rem 0;
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.quoteauthor {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bonus {
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#how {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(47, 144, 255);
+    padding: 3rem 0;
+}
+
+.howcontainer {
+    background-color: rgb(47, 144, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.textleft1 {
+    font-weight: 800;
+    color: white;
+    font-size: 2rem;
+}
+
+.textleft2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
